@@ -124,10 +124,10 @@ body {
     @apply text-[16px] font-[700];
   }
 
-  /* Hero */
+  /* Hero 
   .hero-map {
     @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
-  }
+  } */
 
   /* Camp */
   .camp-quote {
@@ -154,4 +154,13 @@ body {
 .hide-scrollbar {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
 }
