@@ -52,10 +52,10 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About CRUSH',
-      'Terms and Conditions',
-      'Privacy Policy',
-     ],
+      { url: '/', value: 'About CRUSH' },
+      { url: '/terms', value: 'Terms and Conditions'},
+      { url: '/privacy', value: 'Privacy Policy'},
+    ],
   },
   {
     title: 'Partnership',

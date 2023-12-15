@@ -14,16 +14,22 @@ const Footer = () => {
 
           <div className='flex flex-wrap gap-10 sm:justify-between md:flex-1'>
           {FOOTER_LINKS.map((columns) => (
-              <FooterColumn title={columns.title}>
-                <ul className="regular-14 flex flex-col gap-4 text-gray-30">
-                  {columns.links.map((link) => (
-                    <Link href="/" key={link}>
-                      {link}
-                    </Link>
-                  ))}
-                </ul>
-              </FooterColumn>
-            ))}
+  <FooterColumn title={columns.title} key={columns.title}>
+    <ul className="regular-14 flex flex-col gap-4 text-gray-30">
+      {columns.links.map((link) => (
+        typeof link === 'object' ? (
+          <Link href={link.url} key={link.url} target="_blank">
+            {link.value}
+          </Link>
+        ) : (
+          <li key={link}>
+            {link}
+          </li>
+        )
+      ))}
+    </ul>
+  </FooterColumn>
+))}
 
             <div className="flex flex-col gap-5">
               <FooterColumn title={FOOTER_CONTACT_INFO.title}>
