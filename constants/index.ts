@@ -72,6 +72,6 @@ export const SOCIALS = {
   title: 'Social',
   links: [
     { url: 'https://discord.gg/J3QxDD4JK7', icon: '/icons8-discord.svg' },
-    { url: 'https://www.reddit.com/r/crushto/', icon: '/icons8-reddit.svg' },
+    { url: 'https://www.reddit.com/r/crush_official/', icon: '/icons8-reddit.svg' },
   ],
 };
