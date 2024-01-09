@@ -19,12 +19,12 @@ const Navbar = () => {
       </ul>
 */}
       <div className="lg:flexCenter hidden">
-        <Button 
+        <Link href="https://t.me/AshleyZaleBot" passHref><Button 
           type="button"
           title="TALK TO ASHLEY"
           icon="/icons8-telegram.svg"
           variant="btn_dark_green"
-        />
+        /></Link>
       </div>
 
       <Image 
