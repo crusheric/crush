@@ -6,50 +6,51 @@ const Hero = () => {
     <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
       <div className="hero-map" />
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
-      <!-- component -->
-<div class="flex h-screen items-center justify-center bg-gray-50">
-  <div class="w-full md:w-1/2 rounded-lg bg-white px-8 py-4 shadow-md m-4">
-    <div class="px-1 py-4">
-      <h3 class="font-bold text-2xl font-sans">Share with others</h3>
+        
+      <section className="bg-white dark:bg-gray-900">
+    <div className="container px-6 py-8 mx-auto">
+        <h2 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Our Team</h2>
+
+        <div className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="w-full max-w-xs text-center">
+                <img className="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1493863641943-9b68992a8d07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=739&q=80" alt="avatar" />
+
+                <div className="mt-2">
+                    <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200">Ahmed Omer</h3>
+                    <span className="mt-1 font-medium text-gray-600 dark:text-gray-300">CEO</span>
+                </div>
+            </div>
+
+            <div className="w-full max-w-xs text-center">
+                <img className="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1516756587022-7891ad56a8cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar" />
+
+                <div className="mt-2">
+                    <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200">Jane Doe</h3>
+                    <span className="mt-1 font-medium text-gray-600 dark:text-gray-300">Co-founder</span>
+                </div>
+            </div>
+
+            <div className="w-full max-w-xs text-center">
+                <img className="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=731&q=80" alt="avatar" />
+
+                <div className="mt-2">
+                    <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200">Steve Ben</h3>
+                    <span className="mt-1 font-medium text-gray-600 dark:text-gray-300">UI/UX</span>
+                </div>
+            </div>
+
+            <div className="w-full max-w-xs text-center">
+                <img className="object-cover object-center w-full h-48 mx-auto rounded-lg" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" alt="avatar" />
+
+                <div className="mt-2">
+                    <h3 className="text-lg font-medium text-gray-700 dark:text-gray-200">Patterson Johnson</h3>
+                    <span className="mt-1 font-medium text-gray-600 dark:text-gray-300">Software Engineer</span>
+                </div>
+            </div>
+        </div>
     </div>
-      <ul class="grid grid-cols-4 gap-2 px-1">
-        <li class="flex items-center flex-col">
-          <img src="https://randomuser.me/api/portraits/men/20.jpg" alt="" class="rounded-full w-16 h-16 object-cover">
-          <h5 class="font-semibold">Alex</h5>
-        </li>
-          <li class="flex items-center flex-col">
-          <img src="https://randomuser.me/api/portraits/women/11.jpg" alt="" class="rounded-full w-16 h-16 object-cover">
-          <h5 class="font-semibold">Sarah</h5>
-        </li>
-          <li class="flex items-center flex-col">
-          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="" class="rounded-full w-16 h-16 object-cover">
-          <h5 class="font-semibold">Jericho</h5>
-        </li>
-         </li>
-          <li class="flex items-center flex-col">
-          <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="" class="rounded-full w-16 h-16 object-cover">
-          <h5 class="font-semibold">Dianna</h5>
-        </li>
-         <li class="flex items-center flex-col">
-          <img src="https://randomuser.me/api/portraits/men/66.jpg" alt="" class="rounded-full w-16 h-16 object-cover">
-          <h5 class="font-semibol">Bernard</h5>
-        </li>
-          <li class="flex items-center flex-col">
-          <img src="https://randomuser.me/api/portraits/women/19.jpg" alt="" class="rounded-full w-16 h-16 object-cover">
-          <h5 class="font-semibold">Francis</h5>
-        </li>
-          <li class="flex items-center flex-col">
-          <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="" class="rounded-full w-16 h-16 object-cover">
-          <h5 class="font-semibold">Edna</h5>
-        </li>
-         </li>
-          <li class="flex items-center flex-col">
-          <img src="https://randomuser.me/api/portraits/men/21.jpg" alt="" class="rounded-full w-16 h-16 object-cover">
-          <h5 class="font-semibold">Carson</h5>
-        </li>
-      </ul>
-  </div>
-</div>
+</section>
+
       </div>
     </section>
   )
