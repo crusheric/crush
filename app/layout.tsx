@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
   title: 'CRUSH - Always by Your Side.',
-  description: 'AI Virtual Companion and Girlfriends who chat and flirty with you 24/7',
+  description: 'AI Virtual Companions and Girlfriends who sext and flirt with you 24/7',
 }
 
 export default function RootLayout({
