@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <section className="max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row">
+    <section className="max-container padding-container flex flex-col gap-10 py-5 pb-16 md:gap-5 lg:py-15 xl:flex-row">
       <div className="hero-map" />
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         
@@ -54,6 +54,11 @@ const Hero = () => {
                     <span className="mt-1 font-medium text-gray-600 dark:text-gray-500">Lingerie Model / 22 years old</span>
                 </div>
             </div>
+
+
+
+
+
         </div>
     </div>
 </section>
