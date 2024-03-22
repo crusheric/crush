@@ -12,7 +12,6 @@ const Hero = () => {
     <div className="container px-6 py-8 mx-auto">
         <p>
         <h2 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-black">Talk to CRUSH models now on Telegram</h2>
-        <h3 className="text-2xl text-center text-gray-400 capitalize">Sexting with NSFWChatGPT and Erotic Role Play available 24/7</h3>
         </p>
         
         <div className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
