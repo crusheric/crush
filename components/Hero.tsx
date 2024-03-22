@@ -46,15 +46,6 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className="w-full max-w-xs text-center">
-            <Link href="https://t.me/learenez_bot" target="_blank">
-                <img className="object-cover object-center hover:scale-105 w-full h-60 mx-auto rounded-lg" src="/lea_crush_model.png" alt="avatar" />
-</Link>
-                <div className="mt-2">
-                    <h3 className="text-lg font-medium text-gray-700 dark:text-gray-800">Léa Renez </h3>
-                    <span className="mt-1 font-medium text-gray-600 dark:text-gray-500">Lingerie Model / 22 years old</span>
-                </div>
-            </div>
 
 
 
