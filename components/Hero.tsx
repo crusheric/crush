@@ -32,7 +32,7 @@ const Hero = () => {
 </Link>
                 <div className="mt-2">
                     <h3 className="text-lg font-medium text-gray-700 dark:text-gray-800">Scarlet Hahn</h3>
-                    <span className="mt-1 font-medium text-gray-600 dark:text-gray-500">Paralegal / 22 years old</span>
+                    <span className="mt-1 font-medium text-gray-600 dark:text-gray-500">Praralegal / 22 years old</span>
                 </div>
             </div>
 
