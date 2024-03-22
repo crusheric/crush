@@ -59,10 +59,7 @@ export const FOOTER_LINKS = [
   },
   {
     title: 'Partnership',
-    links: [
-      { url: 'https://qsju6pp0lzl.typeform.com/to/pERPNxwh', value: 'Become CRUSH models' },
-      { url: '', value: 'Affiliate' },
-    ],
+    links: ['Become CRUSH models ', 'Affiliate'],
   },
 ];
 
